@@ -8,3 +8,7 @@ body {
 #hellomessage {
   font-weight:bold;
 }
+
+li {
+  display: inline;
+}
