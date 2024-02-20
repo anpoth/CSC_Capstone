@@ -30,15 +30,57 @@
 <!-- Main Body -->
 <body>
   
+  <!-- Logo and Welcome Message -->
   <img src="" alt="logoImage">
   <h2>Welcome to the School Supplies Store!</h2>
 
-<!-- <form>
-    What is your name: <input type="text" size="20" id="myname" onkeydown = "if (event.keyCode == 13)  document.getElementById('mybutton').click()"   />
-  <input type="text" style="display: none;" />
-  <button type="button" id="mybutton">Submit</button>
-</form> -->
-<div id="hellomessage">TEST</div>
+<!-- Today's Deals Box -->
+<div id="todaysDeals">
+  <h2>TODAY'S DEALS!</h2>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+</div>
+
+
+<!-- Main Div -->
+<div id="mainDiv">
+  <!-- Help Div for those who need help finding specific items -->
+  <div id="helpDiv">
+    <h2>Help Finding What You Need?</h2>
+    <br>
+  </div>
+
+  <!-- Vendor Div to show who our main vendors and donators are -->
+  <div id="vendorDiv">
+    <h2>Our Vendors and Donators!</h2>
+    <br>
+  </div>
+
+  <!-- Contact Div so users can get in contact about donating or if they have questions.  -->
+  <div id="contactDiv">
+    <h2>Contact Us!</h2>
+    <!-- Contact Form -->
+    <form action="" id="contactForm">
+      <label>Name: </label><input type="text" id="nameInput"><br>
+      <label>Email: </label><input type="text" id="emailInput"><br>
+      <label>Reason for contact:</label><br>
+      <textarea name="reason" id="reasonInput" cols="60" rows="10"></textarea><br>
+      <button id="submitBtn" type="button">Submit</button>
+    </form>
+  </div>
+</div>
+
+
+<!-- Script Import -->
 <script src="app.js"></script>
 </body>
 </html>
