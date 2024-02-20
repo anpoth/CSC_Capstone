@@ -1,3 +1,8 @@
+/* Computer Science Capstone Project */
+/* School Supplies Store */
+/* Alexander Poth */
+
+/* Main Stylesheet */
 
 body {
   font-size:1em;
@@ -5,10 +10,20 @@ body {
   background:lightblue;
 }
 
-#hellomessage {
+#todaysDeals {
   font-weight:bold;
+  height: fit-content;
 }
 
 li {
   display: inline;
+}
+
+#contactDiv{
+  border-style:groove;
+  font-weight: bold;
+}
+
+body{
+  border-style: double;
 }
