@@ -8,6 +8,7 @@ body {
   font-size:1em;
   font-family:Arial;
   background:lightblue;
+  border-style: double;
 }
 
 #todaysDeals {
@@ -22,8 +23,4 @@ li {
 div{
   border-style:groove;
   font-weight: bold;
-}
-
-body{
-  border-style: double;
 }
