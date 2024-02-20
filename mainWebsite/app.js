@@ -4,9 +4,9 @@
 
 // Main Script
 
-
-// #region
 // Submit Contact Request Function
+// #region
+
 document.getElementById("submitBtn").onclick = submitContactRequest;
 function submitContactRequest() {
     alert("Submitted!, You will hear from us via email shortly!");
@@ -14,8 +14,8 @@ function submitContactRequest() {
 }
 // #endregion
 
-
-
+// Show/ Hide Grade Level Navigation function
+// #region
 document.getElementById("gradeSchool").onclick = showElements;
 document.getElementById("middleHigh").onclick = showElements;
 document.getElementById("college").onclick = showElements;
@@ -32,3 +32,5 @@ function showElements(elementToShow){
       x.style.display = "none";
     }
 }
+
+// #endregion
