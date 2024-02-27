@@ -51,6 +51,7 @@
   <div id="byCourseDiv" style="display: none;">
     <h2>Search for a specific course!</h2>
     <h3>Select which course you're looking for below!</h3>
+    <?php include 'data.php';?>
   </div>
 
   

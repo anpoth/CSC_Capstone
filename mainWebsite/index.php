@@ -21,7 +21,6 @@
     <button id="loginBtn" onclick="window.location.href='account.php'">Login/ Create Account</button>
     <button id="cartBtn" onclick="window.location.href='cart.php'">Cart</button>
   </div>
-  
 </head>
 
 <!-- Main Body -->

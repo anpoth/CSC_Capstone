@@ -35,6 +35,41 @@
   <div id="gradeSchoolDiv" style="display: none;">
     <h2>Elementary School</h2>
     <h3>Kindergarten through 5th Grade</h3>
+    <?php
+      function csvToArray($file) {
+          $rows = array();
+          $handle = fopen($file, "r");
+          while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
+              $rows[] = $data;
+          }
+          fclose($handle);
+          return $rows;
+      }
+
+      // Path to the CSV file
+      $csvFile = 'data/mathSuppliesE.csv';
+
+      // Check if the file exists
+      if (file_exists($csvFile)) {
+          // Convert CSV to array
+          $students = csvToArray($csvFile);
+
+          // Output data as a table
+          echo "<table border='1'>";
+
+          foreach ($students as $student) {
+              echo "<tr>";
+              foreach ($student as $value) {
+                  echo "<td>$value</td>";
+              }
+              echo "</tr>";
+          }
+
+          echo "</table>";
+      } else {
+          echo "CSV file not found!";
+      }
+    ?>
   </div>
   
   <div id="middleHighDiv" style="display: none;">
