@@ -15,7 +15,7 @@
   <title>School Supplies Store</title>
   
 <!--  Navigation Header  -->
-  <ul>
+  <!-- <ul>
     <li><a href="index.html">Home</a></li>
     <li><a href="math.html">Math</a></li>
     <li><a href="science.html">Science</a></li> 
@@ -25,7 +25,11 @@
     <li><button id="subScriptionBtn">Manage Subscription</button></li>
     <li><button id="loginBtn" onclick="window.location.href='account.html'">Login/ Create Account</button></li>
     <li><button id="cartBtn" onclick="window.location.href='cart.html'">Cart</button></li>
-  </ul>
+  </ul> -->
+  <div class="main">
+    <?php include 'menu.php';?>
+  </div>
+  
 </head>
 
 <!-- Main Body -->
