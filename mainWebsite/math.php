@@ -14,17 +14,12 @@
   <title>Math Supplies</title>
   
 <!--  Navigation Header  -->
-<ul>
-  <li><a href="index.html">Home</a></li>
-  <li><a href="math.html">Math</a></li>
-  <li><a href="science.html">Science</a></li> 
-  <li><a href="english.html">English</a></li>
-  <li><a href="history.html">History</a></li>
-  <li><a href="other.html">Other Supplies</a></li>
-  <li><button id="subScriptionBtn">Manage Subscription</button></li>
-  <li><button id="loginBtn" onclick="window.location.href='account.html'">Login/ Create Account</button></li>
-  <li><button id="cartBtn" onclick="window.location.href='cart.html'">Cart</button></li>
-</ul>
+  <div class="main">
+    <?php include 'menu.php';?>
+    <button id="subScriptionBtn">Manage Subscription</button>
+    <button id="loginBtn" onclick="window.location.href='account.php'">Login/ Create Account</button>
+    <button id="cartBtn" onclick="window.location.href='cart.php'">Cart</button>
+  </div>
 
 <!-- Grade Level Navigation -->
 <ul>

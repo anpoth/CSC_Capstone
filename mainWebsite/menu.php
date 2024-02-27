@@ -13,15 +13,12 @@
 // }
 
 
-echo '<ul>
-  <li><a href="index.php">Home</a></li>
-  <li><a href="math.php">Math</a></li>
-  <li><a href="science.php">Science</a></li> 
-  <li><a href="english.php">English</a></li>
-  <li><a href="history.php">History</a></li>
-  <li><a href="other.php">Other Supplies</a></li>
-  <li><button id="subScriptionBtn">Manage Subscription</button></li>
-  <li><button id="loginBtn" onclick="window.location.href="account.php"">Login/ Create Account</button></li>
-  <li><button id="cartBtn" onclick="window.location.href="cart.php"">Cart</button></li>
-</ul>'
+echo '
+  <a href="index.php">Home</a>
+  <a href="math.php">Math</a>
+  <a href="science.php">Science</a> 
+  <a href="english.php">English</a>
+  <a href="history.php">History</a>
+  <a href="other.php">Other Supplies</a>
+  '
 ?>
