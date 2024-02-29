@@ -1,6 +1,6 @@
 <?php
 
-function csvToArray($file) {
+function csvToArrayMain($file) {
     $rows = array();
     $handle = fopen($file, "r");
     while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
@@ -16,7 +16,7 @@ $csvFile = 'data/main.csv';
 // Check if the file exists
 if (file_exists($csvFile)) {
     // Convert CSV to array
-    $students = csvToArray($csvFile);
+    $students = csvToArrayMain($csvFile);
 
     // Output data as a table
     echo "<table border='1'>";
